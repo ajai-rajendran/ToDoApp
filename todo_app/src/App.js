@@ -15,7 +15,6 @@ function App() {
         <ToDoHero todos_completed={todos_completed} total_todos={total_todos} />
         <Form setToDos={setToDos}/>
       </div>
-      
       <ToDoList todos={toDos} />
     </div>
   );
